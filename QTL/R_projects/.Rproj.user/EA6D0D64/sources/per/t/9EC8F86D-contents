@@ -1,0 +1,10 @@
+library(parallel)
+library(hash)
+library(splines)
+library(happy.hbrem)
+
+dbPath <- "C:\\Users\\מיכל\\Desktop\\PhD Michal\\R\\QTL\\CONDENSED"
+scPath <- "C:\\Users\\מיכל\\Desktop\\PhD Michal\\R\\happy.preCC.R"
+dfPath <- "C:\Users\מיכל\Desktop\PhD Michal\R\QTL\TumorPhen1"
+
+

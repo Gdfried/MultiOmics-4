@@ -1,0 +1,28 @@
+{
+    "id": "354EEA00",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1723047289958.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "id": "ff616eab653048029500ee67d6adbec5",
+        "name": "condensed",
+        "title": "condensed",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2103418344400,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1723047289958,
+    "read_only": false,
+    "read_only_alternatives": []
+}

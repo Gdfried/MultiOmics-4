@@ -1,0 +1,28 @@
+{
+    "id": "4FEC540E",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1723047516122.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "id": "1c00c4ef02414ff19a506493c4b3e616",
+        "name": "add_cond",
+        "title": "add_cond",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3684008414811612274,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1723047516122,
+    "read_only": false,
+    "read_only_alternatives": []
+}
