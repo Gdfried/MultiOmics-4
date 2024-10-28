@@ -1,0 +1,24 @@
+{
+  "version": "0.5.1",
+  "createTimestamp": 1729419220049,
+  "modifyTimestamp": 1729419220049,
+  "uri": "file:/Users/gdfri/Documents/Learning/Final_Project/./script_test/QPProject/project.qpproj",
+  "lastID": 1,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/gdfri/Documents/Learning/Final_Project/mouse_run/MB16CC003_2a5a20f5-c72b-4ceb-80c8-36e0c66104e8.SCN",
+        "args": [
+          "--series",
+          "1"
+        ]
+      },
+      "entryID": 1,
+      "randomizedName": "8eca1f79-c482-41b9-ac80-78d1ec5def26",
+      "imageName": "MB16CC003_2a5a20f5-c72b-4ceb-80c8-36e0c66104e8",
+      "metadata": {}
+    }
+  ]
+}
