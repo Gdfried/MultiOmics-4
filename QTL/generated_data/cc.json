@@ -1,0 +1,22 @@
+{
+  "description": "test1",
+  "crosstype": "risib8",
+  "sep": ",",
+  "na.strings": ["-", "NA"],
+  "comment.char": "#",
+  "geno": ["chr1_geno.csv", "chr2_geno.csv", "chr3_geno.csv", "chr4_geno.csv", "chr5_geno.csv", "chr6_geno.csv", "chr7_geno.csv", "chr8_geno.csv", "chr9_geno.csv", "chr10_geno.csv", "chr11_geno.csv", "chr12_geno.csv", "chr13_geno.csv", "chr14_geno.csv", "chr15_geno.csv", "chr16_geno.csv", "chr17_geno.csv", "chr18_geno.csv", "chr19_geno.csv", "chrX_geno.csv"],
+  "founder_geno": ["chr1_founders.csv", "chr2_founders.csv", "chr3_founders.csv", "chr4_founders.csv", "chr5_founders.csv", "chr6_founders.csv", "chr7_founders.csv", "chr8_founders.csv", "chr9_founders.csv", "chr10_founders.csv", "chr11_founders.csv", "chr12_founders.csv", "chr13_founders.csv", "chr14_founders.csv", "chr15_founders.csv", "chr16_founders.csv", "chr17_founders.csv", "chr18_founders.csv", "chr19_founders.csv", "chrX_founders.csv"],
+  "gmap": ["chr1_gmap.csv", "chr2_gmap.csv", "chr3_gmap.csv", "chr4_gmap.csv", "chr5_gmap.csv", "chr6_gmap.csv", "chr7_gmap.csv", "chr8_gmap.csv", "chr9_gmap.csv", "chr10_gmap.csv", "chr11_gmap.csv", "chr12_gmap.csv", "chr13_gmap.csv", "chr14_gmap.csv", "chr15_gmap.csv", "chr16_gmap.csv", "chr17_gmap.csv", "chr18_gmap.csv", "chr19_gmap.csv", "chrX_gmap.csv"],
+  "pmap": ["chr1_pmap.csv", "chr2_pmap.csv", "chr3_pmap.csv", "chr4_pmap.csv", "chr5_pmap.csv", "chr6_pmap.csv", "chr7_pmap.csv", "chr8_pmap.csv", "chr9_pmap.csv", "chr10_pmap.csv", "chr11_pmap.csv", "chr12_pmap.csv", "chr13_pmap.csv", "chr14_pmap.csv", "chr15_pmap.csv", "chr16_pmap.csv", "chr17_pmap.csv", "chr18_pmap.csv", "chr19_pmap.csv", "chrX_pmap.csv"],
+  "alleles": ["A", "B", "C", "D", "E", "F", "G", "H"],
+  "x_chr": "X",
+  "genotypes": {
+    "A": 1,
+    "B": 3
+  },
+  "geno_transposed": true,
+  "founder_geno_transposed": true,
+  "cross_info": {
+    "file": "cc_crossg.csv"
+  }
+}
