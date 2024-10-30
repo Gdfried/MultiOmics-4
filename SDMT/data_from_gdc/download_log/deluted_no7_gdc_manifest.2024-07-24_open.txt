@@ -1,0 +1,7 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no7_gdc_manifest.2024-07-24_open.txt
+[31mERROR: [0m('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+[33mWARNING: [0mUnable to download annotations for 26da09a8-0c88-4ddb-bd8b-50d0040c7e08: 'NoneType' object has no attribute 'raise_for_status'
+[31mERROR: [0m83b66ab3-20ab-4217-a418-494e5c20e6ea: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/83b66ab3-20ab-4217-a418-494e5c20e6ea'? Is there a connection to the API? Is the server running?
+[32mSuccessfully downloaded[0m: 3421
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no7_gdc_manifest.2024-07-24_open.txt was: 14733 seconds
+Disk space used for download: 265447312 KB

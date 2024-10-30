@@ -1,0 +1,7 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no9_gdc_manifest.2024-07-24_open.txt
+[31mERROR: [0m0ca579b1-763e-4f6a-a071-c6514aaa2f11: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/0ca579b1-763e-4f6a-a071-c6514aaa2f11'? Is there a connection to the API? Is the server running?
+[31mERROR: [0m490c2a39-447a-4abf-ae50-016029873002: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/490c2a39-447a-4abf-ae50-016029873002'? Is there a connection to the API? Is the server running?
+[31mERROR: [0m13be99c8-67c2-46dd-b998-0d60da60dbee: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/13be99c8-67c2-46dd-b998-0d60da60dbee'? Is there a connection to the API? Is the server running?
+[32mSuccessfully downloaded[0m: 2601
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no9_gdc_manifest.2024-07-24_open.txt was: 12668 seconds
+Disk space used for download: -44716152 KB

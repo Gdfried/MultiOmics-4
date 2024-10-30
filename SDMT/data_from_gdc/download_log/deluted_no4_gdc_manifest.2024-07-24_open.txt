@@ -1,0 +1,13 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no4_gdc_manifest.2024-07-24_open.txt
+[33mWARNING: [0m[410] Unable to download group
+[31mERROR: [0m4c2fc6f6-fa00-44a6-a665-4929bbd2aa3b: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/4c2fc6f6-fa00-44a6-a665-4929bbd2aa3b'? Is there a connection to the API? Is the server running?
+[31mERROR: [0m9894012a-1f40-409a-bda2-3907d011b489: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/9894012a-1f40-409a-bda2-3907d011b489: {"message":"internal server error"}
+[31mERROR: [0md4e19de6-6b6c-4019-ac2e-5d093f80a69c: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/d4e19de6-6b6c-4019-ac2e-5d093f80a69c: {"message":"internal server error"}
+[31mERROR: [0mb24ffb97-7944-4503-849a-a63a9607fa20: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/b24ffb97-7944-4503-849a-a63a9607fa20: {"message":"internal server error"}
+[31mERROR: [0m33800b33-bc7d-4b80-a28c-f2482c787fe8: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/33800b33-bc7d-4b80-a28c-f2482c787fe8: {"message":"internal server error"}
+[31mERROR: [0m059f5b86-3ec6-4219-b5f7-7b15e89cadd6: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/059f5b86-3ec6-4219-b5f7-7b15e89cadd6: {"message":"internal server error"}
+[31mERROR: [0mb0393766-854d-41eb-80cc-08f584e25857: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/b0393766-854d-41eb-80cc-08f584e25857: {"message":"internal server error"}
+[32mSuccessfully downloaded[0m: 2673
+[31mFailed downloads[0m: 13
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no4_gdc_manifest.2024-07-24_open.txt was: 14417 seconds
+Disk space used for download: 327438108 KB

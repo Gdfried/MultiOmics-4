@@ -1,0 +1,4 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no10_gdc_manifest.2024-07-24_open.txt
+[32mSuccessfully downloaded[0m: 34
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no10_gdc_manifest.2024-07-24_open.txt was: 131 seconds
+Disk space used for download: 2685888 KB

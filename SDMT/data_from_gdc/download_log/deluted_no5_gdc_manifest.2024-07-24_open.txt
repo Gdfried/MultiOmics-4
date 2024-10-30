@@ -1,0 +1,17 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no5_gdc_manifest.2024-07-24_open.txt
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0m[410] Unable to download group
+[31mERROR: [0m56a091bd-8f46-43f6-9f94-bd2934e2691a: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/56a091bd-8f46-43f6-9f94-bd2934e2691a: {"message":"internal server error"}
+[31mERROR: [0md449ee98-6ad6-43f5-9447-1d162c028d6e: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/d449ee98-6ad6-43f5-9447-1d162c028d6e: {"message":"internal server error"}
+[31mERROR: [0ma0d2e679-aba6-49a2-9ca5-0182cf394eee: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/a0d2e679-aba6-49a2-9ca5-0182cf394eee: {"message":"internal server error"}
+[31mERROR: [0me70c53fd-e5de-4a8b-94f8-11d78294b349: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/e70c53fd-e5de-4a8b-94f8-11d78294b349: {"message":"internal server error"}
+[31mERROR: [0m11bf8200-c08b-4e34-b726-57ccb39ac6f5: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/11bf8200-c08b-4e34-b726-57ccb39ac6f5: {"message":"internal server error"}
+[32mSuccessfully downloaded[0m: 2442
+[31mFailed downloads[0m: 80
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no5_gdc_manifest.2024-07-24_open.txt was: 11751 seconds
+Disk space used for download: -149528612 KB

@@ -1,0 +1,13 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no1_gdc_manifest.2024-07-24_open.txt
+[31mERROR: [0m('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+[31mERROR: [0mAn unexpected error has occurred during normal operation of the client. Please report the following exception to GDC support <support@nci-gdc.datacommons.io>.
+[31mERROR: [0m'NoneType' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "gdc-client", line 103, in <module>
+  File "gdc_client-1.6.1-py3.7.egg/gdc_client/download/parser.py", line 96, in download
+  File "gdc_client-1.6.1-py3.7.egg/gdc_client/download/client.py", line 287, in download_small_groups
+  File "gdc_client-1.6.1-py3.7.egg/gdc_client/download/client.py", line 228, in _download_tarfile
+AttributeError: 'NoneType' object has no attribute 'status_code'
+[31mERROR: [0mExiting
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no1_gdc_manifest.2024-07-24_open.txt was: 55 seconds
+Disk space used for download: 0 KB

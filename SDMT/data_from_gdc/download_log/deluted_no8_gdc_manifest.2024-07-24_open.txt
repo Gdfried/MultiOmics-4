@@ -1,0 +1,5 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no8_gdc_manifest.2024-07-24_open.txt
+[31mERROR: [0m8ffdde89-cb67-4707-a00c-b8d3089a7bf5: Unable to connect to API: (('Connection aborted.', OSError("(104, 'ECONNRESET')"))). Is this url correct: 'https://api.gdc.cancer.gov/data/8ffdde89-cb67-4707-a00c-b8d3089a7bf5'? Is there a connection to the API? Is the server running?
+[32mSuccessfully downloaded[0m: 2421
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no8_gdc_manifest.2024-07-24_open.txt was: 11616 seconds
+Disk space used for download: 200083580 KB
