@@ -1,0 +1,20 @@
+Initialising download of images from: /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no6_gdc_manifest.2024-07-24_open.txt
+[33mWARNING: [0m[410] Unable to download group
+[33mWARNING: [0mUnable to download annotations for 17fc7cb7-4390-44ad-ba8b-b4f7ac697cf1: 410 Client Error: Gone for url: https://api.gdc.cancer.gov/legacy/data?compress
+[31mERROR: [0me3c6de24-8aca-4e37-9a9f-20d6a6199ff8: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/e3c6de24-8aca-4e37-9a9f-20d6a6199ff8: {"message":"internal server error"}
+[31mERROR: [0m1e48169c-560b-4229-a12a-8e8a8eb02f2e: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/1e48169c-560b-4229-a12a-8e8a8eb02f2e: {"message":"internal server error"}
+[31mERROR: [0mb72fbe6f-6c5f-4b83-8c4b-1b9d26dd5af3: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/b72fbe6f-6c5f-4b83-8c4b-1b9d26dd5af3: {"message":"internal server error"}
+[31mERROR: [0mdf751812-d0a3-441f-87df-ef3dd42caea3: Unable to connect to API: (HTTPSConnectionPool(host='api.gdc.cancer.gov', port=443): Read timed out. (read timeout=60)). Is this url correct: 'https://api.gdc.cancer.gov/data/df751812-d0a3-441f-87df-ef3dd42caea3'? Is there a connection to the API? Is the server running?
+[31mERROR: [0m41844669-31bb-4cdb-9f62-aa03f2e86287: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/41844669-31bb-4cdb-9f62-aa03f2e86287: {"message":"internal server error"}
+[31mERROR: [0m39d696cc-b038-49ab-a299-c673bbce1d2d: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/39d696cc-b038-49ab-a299-c673bbce1d2d: {"message":"internal server error"}
+[31mERROR: [0m3f25ae24-fa66-43ac-a18d-54a3c316e5df: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/3f25ae24-fa66-43ac-a18d-54a3c316e5df: {"message":"internal server error"}
+[31mERROR: [0mfb45e563-73f9-4214-bae6-65df09e9c5ee: Unable to connect to API: (HTTPSConnectionPool(host='api.gdc.cancer.gov', port=443): Read timed out. (read timeout=60)). Is this url correct: 'https://api.gdc.cancer.gov/data/fb45e563-73f9-4214-bae6-65df09e9c5ee'? Is there a connection to the API? Is the server running?
+[31mERROR: [0m70ffbacd-245a-43f7-aeca-3cacfd926a72: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/70ffbacd-245a-43f7-aeca-3cacfd926a72: {"message":"internal server error"}
+[31mERROR: [0m32a5ad8f-4ce0-4256-a56f-4df0f8d959ef: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/32a5ad8f-4ce0-4256-a56f-4df0f8d959ef: {"message":"internal server error"}
+[31mERROR: [0mfb319d50-23ab-4c2b-9981-d296fdeeb983: Unable to connect to API: (HTTPSConnectionPool(host='api.gdc.cancer.gov', port=443): Read timed out. (read timeout=60)). Is this url correct: 'https://api.gdc.cancer.gov/data/fb319d50-23ab-4c2b-9981-d296fdeeb983'? Is there a connection to the API? Is the server running?
+[31mERROR: [0mb8dc8d3a-b85c-4f40-ade0-cdd1f6485d87: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/b8dc8d3a-b85c-4f40-ade0-cdd1f6485d87: {"message":"internal server error"}
+[31mERROR: [0m3a864ee1-df64-4d13-b87f-628b96d01b09: 500 Server Error: INTERNAL SERVER ERROR for url: https://api.gdc.cancer.gov/data/3a864ee1-df64-4d13-b87f-628b96d01b09: {"message":"internal server error"}
+[32mSuccessfully downloaded[0m: 2407
+[31mFailed downloads[0m: 18
+Runtime of images from /home/ilants/Documents/data_from_gdc/manifests//home/ilants/Documents/data_from_gdc/manifests/deluted_no6_gdc_manifest.2024-07-24_open.txt was: 14229 seconds
+Disk space used for download: 327275064 KB
