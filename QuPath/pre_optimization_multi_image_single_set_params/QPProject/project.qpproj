@@ -1,0 +1,294 @@
+{
+  "version": "0.5.1",
+  "createTimestamp": 1728513817431,
+  "modifyTimestamp": 1728513817431,
+  "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/QPProject/project.qpproj",
+  "lastID": 19,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-A8-A092-01Z-00-DX1.2A55EA0C-47CD-426B-9697-F2B761730585.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 1,
+      "randomizedName": "1911743f-a145-45a5-b1e6-6fc4c61d362e",
+      "imageName": "TCGA-A8-A092-01Z-00-DX1.2A55EA0C-47CD-426B-9697-F2B761730585",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AC-A2B8-01Z-00-DX1.14F3A9B2-1382-436A-B53C-92FC8495AD48.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 2,
+      "randomizedName": "acbce61f-124f-4ecd-bc81-74d33f08859c",
+      "imageName": "TCGA-AC-A2B8-01Z-00-DX1.14F3A9B2-1382-436A-B53C-92FC8495AD48",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AO-A03U-01Z-00-DX1.AE2B55F3-8BA1-4546-82B7-4D2292BE1C78.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 3,
+      "randomizedName": "0ffdfb7a-a9b5-4c07-938e-37b990f076ee",
+      "imageName": "TCGA-AO-A03U-01Z-00-DX1.AE2B55F3-8BA1-4546-82B7-4D2292BE1C78",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-BH-A0HK-01Z-00-DX1.019036F5-647A-4EC4-8479-F2C100291AEF.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 4,
+      "randomizedName": "18b9614b-d430-4444-b0ab-a55f64ac44b7",
+      "imageName": "TCGA-BH-A0HK-01Z-00-DX1.019036F5-647A-4EC4-8479-F2C100291AEF",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-BH-A18L-01Z-00-DX1.01D6E3EF-6857-4CC6-BEA1-0BBC1A0B728F.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 5,
+      "randomizedName": "45e78f4a-bde0-4305-8ffb-8edad864d12b",
+      "imageName": "TCGA-BH-A18L-01Z-00-DX1.01D6E3EF-6857-4CC6-BEA1-0BBC1A0B728F",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-D8-A1JF-01Z-00-DX1.224EDA43-F822-4A88-814A-BA7D4C60F8CC.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 6,
+      "randomizedName": "24eb418a-e9e0-47ca-8f55-2e35b9c95194",
+      "imageName": "TCGA-D8-A1JF-01Z-00-DX1.224EDA43-F822-4A88-814A-BA7D4C60F8CC",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-E9-A3X8-01Z-00-DX1.D1532F80-F5F8-47AF-8A1B-B59E345F5D70.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 7,
+      "randomizedName": "f9d865f5-b6ba-4f19-b74c-baa3e1daff4d",
+      "imageName": "TCGA-E9-A3X8-01Z-00-DX1.D1532F80-F5F8-47AF-8A1B-B59E345F5D70",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AR-A2LJ-01Z-00-DX1.9D6257FA-2767-4640-9252-9BE18BD9D158.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 8,
+      "randomizedName": "ee5ce61f-b24f-4d3d-9747-0e45c94ceb02",
+      "imageName": "TCGA-AR-A2LJ-01Z-00-DX1.9D6257FA-2767-4640-9252-9BE18BD9D158",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AC-A3BB-01Z-00-DX1.CE889249-2A5E-44DA-B04E-746BE82CD805.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 9,
+      "randomizedName": "c184ecb2-7f98-4c86-957b-997e1ae84fbc",
+      "imageName": "TCGA-AC-A3BB-01Z-00-DX1.CE889249-2A5E-44DA-B04E-746BE82CD805",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-B6-A0RG-01Z-00-DX1.C83D21A0-EC61-459C-9776-EA3D91469E72.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 10,
+      "randomizedName": "4aca56c4-9878-487f-8fe4-5f57e56c282a",
+      "imageName": "TCGA-B6-A0RG-01Z-00-DX1.C83D21A0-EC61-459C-9776-EA3D91469E72",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-D8-A3Z6-01Z-00-DX2.19C6AA07-5D58-46CD-91D0-90DD5CC84022.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 11,
+      "randomizedName": "54903a1f-a574-4378-bdc4-eba44b2fc582",
+      "imageName": "TCGA-D8-A3Z6-01Z-00-DX2.19C6AA07-5D58-46CD-91D0-90DD5CC84022",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-OL-A66I-01Z-00-DX1.8CE9DCAB-98D3-4163-94AC-1557D86C1E25.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 12,
+      "randomizedName": "713196e7-9e8e-43c9-abdf-bd50eb19dfcc",
+      "imageName": "TCGA-OL-A66I-01Z-00-DX1.8CE9DCAB-98D3-4163-94AC-1557D86C1E25",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-A7-A6VV-01Z-00-DX1.07AE0E16-A883-4C86-BC74-4E13081175F2.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 13,
+      "randomizedName": "2859ba2b-6767-4d59-852d-c514f397ec8a",
+      "imageName": "TCGA-A7-A6VV-01Z-00-DX1.07AE0E16-A883-4C86-BC74-4E13081175F2",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-E9-A1RA-01Z-00-DX1.E1C527C3-EDF2-442A-80FE-3E3AFBC5EF5A.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 14,
+      "randomizedName": "e0035554-ef30-4bf9-842f-9572d21b5139",
+      "imageName": "TCGA-E9-A1RA-01Z-00-DX1.E1C527C3-EDF2-442A-80FE-3E3AFBC5EF5A",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-A8-A081-01Z-00-DX1.06D727F7-4B41-419B-A251-3D804235ACE5.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 15,
+      "randomizedName": "71e05577-38ec-41be-bc24-a8c85300334b",
+      "imageName": "TCGA-A8-A081-01Z-00-DX1.06D727F7-4B41-419B-A251-3D804235ACE5",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-A8-A06R-01Z-00-DX1.41476D0D-BA72-4FB8-B143-9EB679F26D28.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 16,
+      "randomizedName": "452e159b-ee7c-408d-bfd4-4c824c93a364",
+      "imageName": "TCGA-A8-A06R-01Z-00-DX1.41476D0D-BA72-4FB8-B143-9EB679F26D28",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AN-A0XT-01Z-00-DX1.882AF4CE-62A1-4808-9B4B-780066E5E602.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 17,
+      "randomizedName": "0f276cad-8f4b-4e0a-a2a5-ffe3410799df",
+      "imageName": "TCGA-AN-A0XT-01Z-00-DX1.882AF4CE-62A1-4808-9B4B-780066E5E602",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AR-A24K-01Z-00-DX1.3A56BAEC-484E-4F9B-BCB4-360ABF6DDB4B.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 18,
+      "randomizedName": "d3fcb03d-17e8-4ec6-a8db-af8226c42b63",
+      "imageName": "TCGA-AR-A24K-01Z-00-DX1.3A56BAEC-484E-4F9B-BCB4-360ABF6DDB4B",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/multi_image_single_set_params_run/TCGA-AO-A1KO-01Z-00-DX1.EEB5E0A0-92B2-42CD-9F7A-00E9250B561F.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 19,
+      "randomizedName": "f54d08cd-3efe-4d92-98f0-9fe872e22b0b",
+      "imageName": "TCGA-AO-A1KO-01Z-00-DX1.EEB5E0A0-92B2-42CD-9F7A-00E9250B561F",
+      "metadata": {}
+    }
+  ]
+}

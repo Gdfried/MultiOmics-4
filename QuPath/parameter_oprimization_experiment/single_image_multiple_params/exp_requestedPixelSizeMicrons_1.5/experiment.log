@@ -1,0 +1,203 @@
+2024-10-22 21:04:16 INFO: Starting experiment with for requestedPixelSizeMicrons with value of 1.5
+2024-10-22 21:04:16 INFO: Running with the following configuration:
+{'detectionImageBrightfield': 'Hematoxylin OD', 'requestedPixelSizeMicrons': 1.5, 'backgroundRadiusMicrons': 4.0, 'backgroundByReconstruction': True, 'medianRadiusMicrons': 0.0, 'sigmaMicrons': 1.5, 'minAreaMicrons': 10.0, 'maxAreaMicrons': 80.0, 'threshold': 0.1, 'maxBackground': 2.0, 'watershedPostProcess': True, 'cellExpansionMicrons': 5.0, 'includeNuclei': True, 'smoothBoundaries': True, 'makeMeasurements': True, 'backgroundRadiusPixel': 8.0, 'cellExpansionPixel': 10.0, 'medianRadiusPixel': 0.0, 'minAreaPixel': 20.0, 'maxAreaPixel': 160.0}
+2024-10-22 21:04:16 INFO: Starting QuPath image extraction with the following parameters: image_dir=/home/ilants/Documents/jupyter_test, output_dir=/home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_requestedPixelSizeMicrons_1.5, image_type=svs, groovy_script=/home/ilants/Documents/utls/nucleus_detection_wargs.groovy, config_file=/home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_requestedPixelSizeMicrons_1.5/cfg.json, program_path=/home/ilants/Documents/QuPath-v0.5.1-Linux/QuPath/bin/QuPath
+2024-10-22 21:04:17 INFO: 21:04:17.587 [main] [INFO ] qupath.lib.gui.prefs.PathPrefs - Setting default Locale to en_US
+2024-10-22 21:04:17 INFO: 21:04:17.590 [main] [INFO ] qupath.lib.gui.prefs.PathPrefs - Setting Locale for FORMAT to en_US
+2024-10-22 21:04:17 INFO: 21:04:17.590 [main] [INFO ] qupath.lib.gui.prefs.PathPrefs - Setting Locale for DISPLAY to en_US
+2024-10-22 21:04:17 INFO: 21:04:17.604 [main] [INFO ] qupath.lib.common.ThreadTools - Setting parallelism to 63
+2024-10-22 21:04:17 INFO: 21:04:17.622 [main] [INFO ] qupath.ScriptCommand - Setting tile cache size to 32200.00 MB (25.0% max memory)
+2024-10-22 21:04:17 INFO: 21:04:17.683 [main] [INFO ] qupath.lib.scripting.QP - Initializing type adapters
+2024-10-22 21:04:17 INFO: Warning: Versions of org.bytedeco:javacpp:1.5.9 and org.bytedeco:opencv:4.6.0-1.5.8 do not match.
+2024-10-22 21:04:17 INFO: Warning: Versions of org.bytedeco:javacpp:1.5.9 and org.bytedeco:openblas:0.3.21-1.5.8 do not match.
+2024-10-22 21:04:19 INFO: project parameters are: {"detectionImageBrightfield": "Hematoxylin OD","requestedPixelSizeMicrons": 1.5,"backgroundRadiusMicrons": 4.0,"backgroundByReconstruction": true,"medianRadiusMicrons": 0.0,"sigmaMicrons": 1.5,"minAreaMicrons": 10.0,"maxAreaMicrons": 80.0,"threshold": 0.1,"maxBackground": 2.0,"watershedPostProcess": true,"cellExpansionMicrons": 5.0,"includeNuclei": true,"smoothBoundaries": true,"makeMeasurements": true,"backgroundRadiusPixel": 8.0,"cellExpansionPixel": 10.0,"medianRadiusPixel": 0.0,"minAreaPixel": 20.0,"maxAreaPixel": 160.0}
+2024-10-22 21:04:19 INFO: New project created at: /home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_requestedPixelSizeMicrons_1.5/QPProject
+2024-10-22 21:04:19 INFO: Added: /home/ilants/Documents/jupyter_test/TCGA-GI-A2C8-01Z-00-DX1.09BD8AC9-645A-4C8B-9B36-77D833BDBA09.svs
+2024-10-22 21:04:19 INFO: /home/ilants/Documents/jupyter_test/TCGA-GI-A2C8-01Z-00-DX1.09BD8AC9-645A-4C8B-9B36-77D833BDBA09.svs
+2024-10-22 21:04:19 INFO: 21:04:19.597 [main] [INFO ] q.l.i.s.b.BioFormatsServerOptions - Setting max Bio-Formats readers to 32
+2024-10-22 21:04:20 INFO: UriImageSupport (class qupath.lib.images.servers.bioformats.BioFormatsServerBuilder) support=3.0, builders=1
+2024-10-22 21:04:20 INFO: true
+2024-10-22 21:04:20 INFO: 21:04:20.276 [main] [WARN ] qupath.lib.scripting.QP - createSelectAllObject(boolean) is deprecated, use createFullImageAnnotation(boolean) instead
+2024-10-22 21:04:20 INFO: 21:04:20.276 [main] [WARN ] qupath.lib.scripting.QP - createSelectAllObject(boolean, int, int) is deprecated, use createFullImageAnnotation(boolean, int, int) instead
+2024-10-22 21:04:20 INFO: 21:04:20.287 [main] [WARN ] q.l.plugins.parameters.ParameterList - Unable to set parameter backgroundRadiusPixel with value 8.0
+2024-10-22 21:04:20 INFO: 21:04:20.287 [main] [WARN ] q.l.plugins.parameters.ParameterList - Unable to set parameter cellExpansionPixel with value 10.0
+2024-10-22 21:04:20 INFO: 21:04:20.287 [main] [WARN ] q.l.plugins.parameters.ParameterList - Unable to set parameter medianRadiusPixel with value 0.0
+2024-10-22 21:04:20 INFO: 21:04:20.287 [main] [WARN ] q.l.plugins.parameters.ParameterList - Unable to set parameter minAreaPixel with value 20.0
+2024-10-22 21:04:20 INFO: 21:04:20.287 [main] [WARN ] q.l.plugins.parameters.ParameterList - Unable to set parameter maxAreaPixel with value 160.0
+2024-10-22 21:04:25 INFO: 21:04:25.863 [task-runner-1-24] [INFO ] q.lib.plugins.DetectionPluginTools - 0 nuclei detected (processing time: 5.49 seconds)
+2024-10-22 21:04:25 INFO: 21:04:25.867 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 0 nuclei detected (4%)
+2024-10-22 21:04:27 INFO: 21:04:27.754 [task-runner-1-6] [INFO ] q.lib.plugins.DetectionPluginTools - 11 nuclei detected (processing time: 7.38 seconds)
+2024-10-22 21:04:27 INFO: 21:04:27.755 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 11 nuclei detected (8%)
+2024-10-22 21:04:27 INFO: 21:04:27.918 [task-runner-1-5] [INFO ] q.lib.plugins.DetectionPluginTools - 127 nuclei detected (processing time: 7.55 seconds)
+2024-10-22 21:04:27 INFO: 21:04:27.919 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 127 nuclei detected (13%)
+2024-10-22 21:04:28 INFO: 21:04:28.196 [task-runner-1-19] [INFO ] q.lib.plugins.DetectionPluginTools - 526 nuclei detected (processing time: 7.82 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.196 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 526 nuclei detected (17%)
+2024-10-22 21:04:28 INFO: 21:04:28.209 [task-runner-1-1] [INFO ] q.lib.plugins.DetectionPluginTools - 554 nuclei detected (processing time: 7.84 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.210 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 554 nuclei detected (21%)
+2024-10-22 21:04:28 INFO: 21:04:28.217 [task-runner-1-12] [INFO ] q.lib.plugins.DetectionPluginTools - 561 nuclei detected (processing time: 7.85 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.217 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 561 nuclei detected (25%)
+2024-10-22 21:04:28 INFO: 21:04:28.362 [task-runner-1-13] [INFO ] q.lib.plugins.DetectionPluginTools - 900 nuclei detected (processing time: 7.99 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.363 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 900 nuclei detected (29%)
+2024-10-22 21:04:28 INFO: 21:04:28.376 [task-runner-1-18] [INFO ] q.lib.plugins.DetectionPluginTools - 944 nuclei detected (processing time: 8.00 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.377 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 944 nuclei detected (33%)
+2024-10-22 21:04:28 INFO: 21:04:28.381 [task-runner-1-20] [INFO ] q.lib.plugins.DetectionPluginTools - 923 nuclei detected (processing time: 8.01 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.381 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 923 nuclei detected (38%)
+2024-10-22 21:04:28 INFO: 21:04:28.383 [task-runner-1-21] [INFO ] q.lib.plugins.DetectionPluginTools - 1201 nuclei detected (processing time: 8.01 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.383 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 1201 nuclei detected (42%)
+2024-10-22 21:04:28 INFO: 21:04:28.433 [task-runner-1-7] [INFO ] q.lib.plugins.DetectionPluginTools - 1514 nuclei detected (processing time: 8.06 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.433 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 1514 nuclei detected (46%)
+2024-10-22 21:04:28 INFO: 21:04:28.451 [task-runner-1-4] [INFO ] q.lib.plugins.DetectionPluginTools - 2126 nuclei detected (processing time: 8.08 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.452 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 2126 nuclei detected (50%)
+2024-10-22 21:04:28 INFO: 21:04:28.646 [task-runner-1-3] [INFO ] q.lib.plugins.DetectionPluginTools - 5252 nuclei detected (processing time: 8.28 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.647 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 5252 nuclei detected (54%)
+2024-10-22 21:04:28 INFO: 21:04:28.682 [task-runner-1-22] [INFO ] q.lib.plugins.DetectionPluginTools - 6126 nuclei detected (processing time: 8.31 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.682 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 6126 nuclei detected (58%)
+2024-10-22 21:04:28 INFO: 21:04:28.749 [task-runner-1-11] [INFO ] q.lib.plugins.DetectionPluginTools - 6446 nuclei detected (processing time: 8.38 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.749 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 6446 nuclei detected (63%)
+2024-10-22 21:04:28 INFO: 21:04:28.765 [task-runner-1-2] [INFO ] q.lib.plugins.DetectionPluginTools - 7408 nuclei detected (processing time: 8.40 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.766 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 7408 nuclei detected (67%)
+2024-10-22 21:04:28 INFO: 21:04:28.867 [task-runner-1-23] [INFO ] q.lib.plugins.DetectionPluginTools - 8658 nuclei detected (processing time: 8.49 seconds)
+2024-10-22 21:04:28 INFO: 21:04:28.867 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 8658 nuclei detected (71%)
+2024-10-22 21:04:30 INFO: 21:04:30.597 [task-runner-1-10] [INFO ] q.lib.plugins.DetectionPluginTools - 15195 nuclei detected (processing time: 10.23 seconds)
+2024-10-22 21:04:30 INFO: 21:04:30.597 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 15195 nuclei detected (75%)
+2024-10-22 21:04:30 INFO: 21:04:30.716 [task-runner-1-14] [INFO ] q.lib.plugins.DetectionPluginTools - 13932 nuclei detected (processing time: 10.35 seconds)
+2024-10-22 21:04:30 INFO: 21:04:30.716 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 13932 nuclei detected (79%)
+2024-10-22 21:04:30 INFO: 21:04:30.727 [task-runner-1-9] [INFO ] q.lib.plugins.DetectionPluginTools - 18766 nuclei detected (processing time: 10.36 seconds)
+2024-10-22 21:04:30 INFO: 21:04:30.728 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 18766 nuclei detected (83%)
+2024-10-22 21:04:30 INFO: 21:04:30.964 [task-runner-1-15] [INFO ] q.lib.plugins.DetectionPluginTools - 16927 nuclei detected (processing time: 10.59 seconds)
+2024-10-22 21:04:30 INFO: 21:04:30.964 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 16927 nuclei detected (88%)
+2024-10-22 21:04:31 INFO: 21:04:31.169 [task-runner-1-8] [INFO ] q.lib.plugins.DetectionPluginTools - 19569 nuclei detected (processing time: 10.80 seconds)
+2024-10-22 21:04:31 INFO: 21:04:31.169 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 19569 nuclei detected (92%)
+2024-10-22 21:04:31 INFO: 21:04:31.197 [task-runner-1-16] [INFO ] q.lib.plugins.DetectionPluginTools - 19122 nuclei detected (processing time: 10.83 seconds)
+2024-10-22 21:04:31 INFO: 21:04:31.197 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 19122 nuclei detected (96%)
+2024-10-22 21:04:31 INFO: 21:04:31.322 [task-runner-1-17] [INFO ] q.lib.plugins.DetectionPluginTools - 19252 nuclei detected (processing time: 10.95 seconds)
+2024-10-22 21:04:31 INFO: 21:04:31.322 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - 19252 nuclei detected (100%)
+2024-10-22 21:04:31 INFO: 21:04:31.323 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 10.96 seconds
+2024-10-22 21:04:31 INFO: 21:04:31.323 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:04:34 INFO: 21:04:34.022 [main] [WARN ] q.l.p.objects.SmoothFeaturesPlugin - Smoothing using annotations
+2024-10-22 21:04:37 INFO: 21:04:37.196 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (100%)
+2024-10-22 21:04:37 INFO: 21:04:37.197 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 3.17 seconds
+2024-10-22 21:04:37 INFO: 21:04:37.197 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:04:37 INFO: 21:04:37.199 [main] [WARN ] q.l.p.objects.SmoothFeaturesPlugin - Smoothing using annotations
+2024-10-22 21:04:42 INFO: 21:04:42.915 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (100%)
+2024-10-22 21:04:42 INFO: 21:04:42.916 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 5.72 seconds
+2024-10-22 21:04:42 INFO: 21:04:42.916 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:04:42 INFO: 21:04:42.918 [main] [WARN ] q.l.p.objects.SmoothFeaturesPlugin - Smoothing using annotations
+2024-10-22 21:04:56 INFO: 21:04:56.639 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (100%)
+2024-10-22 21:04:56 INFO: 21:04:56.640 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 13.72 seconds
+2024-10-22 21:04:56 INFO: 21:04:56.640 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:04:56 INFO: 21:04:56.815 [task-runner-5-2] [INFO ] q.l.a.IntensityFeaturesPlugin - Splitting Rectangle (0, 0, 63784, 39311) into 40 tiles for intensity measurements
+2024-10-22 21:04:56 INFO: 21:04:56.987 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (0%)
+2024-10-22 21:04:57 INFO: 21:04:57.776 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (1%)
+2024-10-22 21:04:58 INFO: 21:04:58.300 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (2%)
+2024-10-22 21:04:58 INFO: 21:04:58.521 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (3%)
+2024-10-22 21:04:58 INFO: 21:04:58.764 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (4%)
+2024-10-22 21:04:59 INFO: 21:04:59.009 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (5%)
+2024-10-22 21:04:59 INFO: 21:04:59.097 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (6%)
+2024-10-22 21:04:59 INFO: 21:04:59.462 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (7%)
+2024-10-22 21:04:59 INFO: 21:04:59.546 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (8%)
+2024-10-22 21:04:59 INFO: 21:04:59.625 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (9%)
+2024-10-22 21:04:59 INFO: 21:04:59.702 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (10%)
+2024-10-22 21:04:59 INFO: 21:04:59.776 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (11%)
+2024-10-22 21:04:59 INFO: 21:04:59.856 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (12%)
+2024-10-22 21:04:59 INFO: 21:04:59.931 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (13%)
+2024-10-22 21:05:00 INFO: 21:05:00.004 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (14%)
+2024-10-22 21:05:00 INFO: 21:05:00.082 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (15%)
+2024-10-22 21:05:00 INFO: 21:05:00.156 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (16%)
+2024-10-22 21:05:00 INFO: 21:05:00.239 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (17%)
+2024-10-22 21:05:00 INFO: 21:05:00.349 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (18%)
+2024-10-22 21:05:00 INFO: 21:05:00.452 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (19%)
+2024-10-22 21:05:00 INFO: 21:05:00.553 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (20%)
+2024-10-22 21:05:00 INFO: 21:05:00.664 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (21%)
+2024-10-22 21:05:00 INFO: 21:05:00.781 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (22%)
+2024-10-22 21:05:00 INFO: 21:05:00.893 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (23%)
+2024-10-22 21:05:01 INFO: 21:05:01.008 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (24%)
+2024-10-22 21:05:01 INFO: 21:05:01.110 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (25%)
+2024-10-22 21:05:01 INFO: 21:05:01.195 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (26%)
+2024-10-22 21:05:01 INFO: 21:05:01.283 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (27%)
+2024-10-22 21:05:01 INFO: 21:05:01.369 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (28%)
+2024-10-22 21:05:01 INFO: 21:05:01.456 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (29%)
+2024-10-22 21:05:01 INFO: 21:05:01.636 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (30%)
+2024-10-22 21:05:01 INFO: 21:05:01.885 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (31%)
+2024-10-22 21:05:01 INFO: 21:05:01.964 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (32%)
+2024-10-22 21:05:02 INFO: 21:05:02.044 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (33%)
+2024-10-22 21:05:02 INFO: 21:05:02.129 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (34%)
+2024-10-22 21:05:02 INFO: 21:05:02.215 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (35%)
+2024-10-22 21:05:02 INFO: 21:05:02.297 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (36%)
+2024-10-22 21:05:02 INFO: 21:05:02.378 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (37%)
+2024-10-22 21:05:02 INFO: 21:05:02.464 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (38%)
+2024-10-22 21:05:02 INFO: 21:05:02.545 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (39%)
+2024-10-22 21:05:02 INFO: 21:05:02.629 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (40%)
+2024-10-22 21:05:02 INFO: 21:05:02.712 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (41%)
+2024-10-22 21:05:02 INFO: 21:05:02.793 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (42%)
+2024-10-22 21:05:02 INFO: 21:05:02.894 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (43%)
+2024-10-22 21:05:03 INFO: 21:05:03.007 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (44%)
+2024-10-22 21:05:03 INFO: 21:05:03.116 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (45%)
+2024-10-22 21:05:03 INFO: 21:05:03.225 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (46%)
+2024-10-22 21:05:03 INFO: 21:05:03.312 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (47%)
+2024-10-22 21:05:03 INFO: 21:05:03.399 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (48%)
+2024-10-22 21:05:03 INFO: 21:05:03.483 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (49%)
+2024-10-22 21:05:03 INFO: 21:05:03.570 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (50%)
+2024-10-22 21:05:03 INFO: 21:05:03.653 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (51%)
+2024-10-22 21:05:03 INFO: 21:05:03.738 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (52%)
+2024-10-22 21:05:03 INFO: 21:05:03.906 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (53%)
+2024-10-22 21:05:03 INFO: 21:05:03.987 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (54%)
+2024-10-22 21:05:04 INFO: 21:05:04.072 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (55%)
+2024-10-22 21:05:04 INFO: 21:05:04.158 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (56%)
+2024-10-22 21:05:04 INFO: 21:05:04.240 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (57%)
+2024-10-22 21:05:04 INFO: 21:05:04.322 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (58%)
+2024-10-22 21:05:04 INFO: 21:05:04.408 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (59%)
+2024-10-22 21:05:04 INFO: 21:05:04.490 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (60%)
+2024-10-22 21:05:04 INFO: 21:05:04.572 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (61%)
+2024-10-22 21:05:04 INFO: 21:05:04.654 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (62%)
+2024-10-22 21:05:04 INFO: 21:05:04.736 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (63%)
+2024-10-22 21:05:04 INFO: 21:05:04.819 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (64%)
+2024-10-22 21:05:04 INFO: 21:05:04.902 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (65%)
+2024-10-22 21:05:04 INFO: 21:05:04.988 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (66%)
+2024-10-22 21:05:05 INFO: 21:05:05.071 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (67%)
+2024-10-22 21:05:05 INFO: 21:05:05.253 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (68%)
+2024-10-22 21:05:05 INFO: 21:05:05.343 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (69%)
+2024-10-22 21:05:05 INFO: 21:05:05.441 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (70%)
+2024-10-22 21:05:05 INFO: 21:05:05.535 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (71%)
+2024-10-22 21:05:05 INFO: 21:05:05.628 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (72%)
+2024-10-22 21:05:05 INFO: 21:05:05.721 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (73%)
+2024-10-22 21:05:05 INFO: 21:05:05.819 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (74%)
+2024-10-22 21:05:05 INFO: 21:05:05.919 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (75%)
+2024-10-22 21:05:06 INFO: 21:05:06.025 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (76%)
+2024-10-22 21:05:06 INFO: 21:05:06.127 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (77%)
+2024-10-22 21:05:06 INFO: 21:05:06.224 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (78%)
+2024-10-22 21:05:06 INFO: 21:05:06.296 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (79%)
+2024-10-22 21:05:06 INFO: 21:05:06.366 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (80%)
+2024-10-22 21:05:06 INFO: 21:05:06.432 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (81%)
+2024-10-22 21:05:06 INFO: 21:05:06.499 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (82%)
+2024-10-22 21:05:06 INFO: 21:05:06.567 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (83%)
+2024-10-22 21:05:06 INFO: 21:05:06.635 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (84%)
+2024-10-22 21:05:06 INFO: 21:05:06.702 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (85%)
+2024-10-22 21:05:06 INFO: 21:05:06.769 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (86%)
+2024-10-22 21:05:06 INFO: 21:05:06.850 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (87%)
+2024-10-22 21:05:06 INFO: 21:05:06.904 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (88%)
+2024-10-22 21:05:06 INFO: 21:05:06.977 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (89%)
+2024-10-22 21:05:07 INFO: 21:05:07.039 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (90%)
+2024-10-22 21:05:07 INFO: 21:05:07.106 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (91%)
+2024-10-22 21:05:07 INFO: 21:05:07.173 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (92%)
+2024-10-22 21:05:07 INFO: 21:05:07.240 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (93%)
+2024-10-22 21:05:07 INFO: 21:05:07.307 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (94%)
+2024-10-22 21:05:07 INFO: 21:05:07.374 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (95%)
+2024-10-22 21:05:07 INFO: 21:05:07.442 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (96%)
+2024-10-22 21:05:07 INFO: 21:05:07.522 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (97%)
+2024-10-22 21:05:07 INFO: 21:05:07.585 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (98%)
+2024-10-22 21:05:07 INFO: 21:05:07.653 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (99%)
+2024-10-22 21:05:07 INFO: 21:05:07.720 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (100%)
+2024-10-22 21:06:06 INFO: 21:06:06.106 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Completed (100%)
+2024-10-22 21:06:06 INFO: 21:06:06.108 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 69.31 seconds
+2024-10-22 21:06:06 INFO: 21:06:06.109 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:07:48 INFO: 21:07:48.586 [task-runner-6-1] [WARN ] q.o.features.DelaunayTriangulation - Some objects have missing measurements! Statistics will calculated only for objects with measurements available.
+2024-10-22 21:07:48 INFO: 21:07:48.586 [task-runner-6-1] [WARN ] q.o.features.DelaunayTriangulation - Missing measurements: [ROI: 1.00 µm per pixel: Residual: Haralick Correlation (F2), ROI: 1.00 µm per pixel: Residual: Haralick Information measure of correlation 1 (F11), ROI: 1.00 µm per pixel: OD Sum: Haralick Correlation (F2), ROI: 1.00 µm per pixel: OD Sum: Haralick Information measure of correlation 1 (F11), ROI: 1.00 µm per pixel: Residual: Haralick Information measure of correlation 2 (F12), Cytoplasm: Hematoxylin OD std dev, Cytoplasm: Eosin OD std dev, Smoothed: 20 µm: Cytoplasm: Hematoxylin OD std dev, Smoothed: 20 µm: Cytoplasm: Eosin OD std dev, Smoothed: 50 µm: Cytoplasm: Hematoxylin OD std dev, Smoothed: 50 µm: Cytoplasm: Eosin OD std dev, Smoothed: 100 µm: Cytoplasm: Hematoxylin OD std dev, Smoothed: 100 µm: Cytoplasm: Eosin OD std dev]
+2024-10-22 21:07:48 INFO: 21:07:48.613 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Delaunay triangulation calculated for Annotation (157814 objects) (100%)
+2024-10-22 21:07:48 INFO: 21:07:48.615 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Processing complete in 102.44 seconds
+2024-10-22 21:07:48 INFO: 21:07:48.615 [main] [INFO ] q.l.p.CommandLineTaskRunner$CommandLineProgressMonitor - Tasks completed!
+2024-10-22 21:09:41 INFO: TCGA-GI-A2C8-01Z-00-DX1.09BD8AC9-645A-4C8B-9B36-77D833BDBA09
+2024-10-22 21:09:41 INFO: QuPath subprocess completed.
+2024-10-22 21:09:50 INFO: QuPath image extraction completed successfully. Output directory: /home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_requestedPixelSizeMicrons_1.5
+2024-10-22 21:09:50 INFO: Summary table saved to: /home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_requestedPixelSizeMicrons_1.5/Summary_Table.csv
+2024-10-22 21:09:50 INFO: Experiment completed successfully.

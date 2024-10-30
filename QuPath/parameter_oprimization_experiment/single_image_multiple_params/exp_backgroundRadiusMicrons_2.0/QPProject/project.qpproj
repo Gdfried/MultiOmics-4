@@ -1,0 +1,24 @@
+{
+  "version": "0.5.1",
+  "createTimestamp": 1729627763658,
+  "modifyTimestamp": 1729627763658,
+  "uri": "file:/home/ilants/Documents/jupyter_test/single_image_multiple_params/exp_backgroundRadiusMicrons_2.0/QPProject/project.qpproj",
+  "lastID": 1,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/home/ilants/Documents/jupyter_test/TCGA-GI-A2C8-01Z-00-DX1.09BD8AC9-645A-4C8B-9B36-77D833BDBA09.svs",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 1,
+      "randomizedName": "9f0f0f98-eef7-4722-9219-ceef9239ac48",
+      "imageName": "TCGA-GI-A2C8-01Z-00-DX1.09BD8AC9-645A-4C8B-9B36-77D833BDBA09",
+      "metadata": {}
+    }
+  ]
+}
