@@ -1,66 +1,120 @@
 # Multi-Omics 4
 
-**Project Number**: 2541  
-**Contributors**: Dor Fried, Lior Segal  
-**Mentor**: Prof. Ilan Tsarfaty, Faculty of Medical and Health Sciences, Tel Aviv University  
+### Overview
+The Multi-Omics 4 project is an integrated computational pipeline designed to analyze multi-omics data for cancer research, particularly breast cancer. The project evolved to develop a robust pipeline that addresses reproducibility challenges by integrating genomics, histopathology image processing, and quantitative trait locus (QTL) analysis.
+### Flow structure
+1. **Data Acquisition (SDMT)**: Automates download and preprocesses datasets.
+2. **Image Processing (CIP)**: Runs QuPath image analysis with optimized parameters for high accuracy in nucleus detection.
+3. **QTL Analysis**: Combines phenotype and genotype data for genetic analysis, leveraging R/qtl2 for robust results.
 
-## Project Overview
-The Multi-Omics 4 project aims to develop a robust, integrated pipeline for multi-omics cancer research. Building a solution capable of processing diverse biological data types effectively. This pipeline addresses challenges in data integration, image processing, and genetic analysis for cancer research, particularly focusing on breast cancer prognosis.
+![full block Diagram](full_flow_block_diagram.png)
 
-## Objectives
-- **Develop a Genomics-Phatomics Integrated Pipeline**: Create a system for multiomics cancer research.
-- **Pathological Image Data Management**: Implement a secure, efficient, and scalable data management solution.
-- **Enhanced Image Analysis**: Improve histopathological image processing.
-- **Modernize Genetic Analysis**: Transition to the R/qtl2 framework for QTL analysis.
+### Repository Structure
+- **Docs/**: Documentation files and user guides.
+- **QTL/**: Scripts and data for QTL analysis, using R/qtl2 to handle genetic data.
+- **QuPath/**: Contains scripts, configuration files, and tools for image processing experiments in QuPath.
+- **SDMT/**: Smart Data Management Tool (SDMT) to manage data downloads and preprocessing.
+- **parameters_check/**: Scripts for verifying and optimizing image processing parameters.
+- **qupath_mouse_POC/**: Proof of concept files for applying QuPath to mouse models.
+- **README.md**: This file, explaining project setup, structure, and usage.
 
-## Key Components
-### 1. **Smart Data Management Tool (SDMT)**
-   - **Functionality**: Manages data downloads, preprocessing, and transfers.
-   - **Hardware**: Combines a high-capacity AI server for heavy computational tasks with local management for preprocessing and storage.
-   - **Impact**: Increases download speeds, storage capacity, and enables seamless large-scale data handling.
+### Short Theoretical Background
+The project combines three main modules:
+1. **Smart Data Management Tool (SDMT)**: Handles automated data downloads, secure storage, and preprocessing.
+2. **Computational Image Processing (CIP)**: Uses QuPath to analyze histopathological images, with automation and parameter optimization for high-throughput and accuracy.
+3. **Quantitative Trait Locus (QTL) Analysis**: Integrates CIP outputs with genetic data using R/qtl2, allowing in-depth analysis of genotype-phenotype relationships.
 
-### 2. **Computational Image Processing (CIP)**
-   - **Framework**: Automates image processing using QuPath and Groovy scripting.
-   - **Processes**: Includes image standardization, segmentation, and Delaunay triangulation.
-   - **Optimization**: Utilizes parameter tuning for improved nucleus detection accuracy.
+These components work together to provide a comprehensive pipeline for cancer data analysis, capable of handling large datasets and producing reliable, reproducible results.
 
-### 3. **Quantitative Trait Locus (QTL) Analysis**
-   - **Enhancement**: Transition from the HAPPY framework to R/qtl2 for advanced genetic data analysis.
-   - **Data Integration**: Aligns phenotypic and genetic information, leveraging outputs from the CIP component.
-   - **Analysis**: Uses permutation testing to evaluate the significance of cross-information in genetic analysis.
+### Technical Setup
 
-## Results
-- **CIP Automation**: Achieved a 99.7% detection accuracy and improved throughput to 28.8 images per day.
-- **QTL Analysis**: Conducted initial R/qtl2 runs, setting up future comprehensive analyses.
-- **Pipeline Impact**: Demonstrated increased accuracy and efficiency, supporting a unified approach to data management, genetic analysis, and image processing.
+#### Prerequisites
+1. **System Requirements**: 
+   - Linux (Ubuntu 20.04 or later recommended)
+   - Python 3.10
+   - Java 8+ (for running QuPath) (can download groovy extention from vscode)
+   - R 4.0+ with the R/qtl2 package
 
-## Future Work
-- **Enhance QuPath Versatility**: Further automate parameter management.
-- **Full Pipeline Integration**: Extend the pipeline to cover the complete flow from data ingestion to cancer prognosis prediction.
-- **Reevaluate MultiSurv**: Apply new data and insights to improve and potentially reproduce original model findings.
+2. **Dependencies (WIP)**:
+   - Python libraries: `pip install -r requirements.txt` (see `requirements.txt` for full list)
+   - QuPath (included in `QuPath/QuPath-v0.5.1-Linux`)
+   - gdc-client (included in `SDMT/gdc-client_v1.6.1_Ubuntu_x64/gdc-client`)
 
-## Getting Started
-1. **Prerequisites**:
-   - Python, Bash scripting capabilities.
-   - QuPath and R/qtl2 installed.
-   
-2. **Installation**:
-   - Clone this repository.
-   - Follow the installation guide for setting up QuPath and R/qtl2 dependencies.
+#### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/MultiOmics4.git
+   cd MultiOmics4
+   ```
+2. Set up a virtual environment and activate it:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+   ```
+3. Install Python dependencies (WIP):
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Install R/qtl2 in R (WIP):
+   ```R
+   install.packages("qtl2")
+   ```
 
-3. **Usage**:
-   - Run the data management script to download and preprocess data.
-   - Use the CIP tool for automated image processing.
-   - Execute the QTL analysis script to analyze genetic data with the latest framework.
+### Data Preparation and Download
+The SDMT is responsible for managing data downloads from public repositories and secure storage. Use the provided shell script to initiate the download:
 
-## Contributors
-- **Dor Fried**
-- **Lior Segal**
-- **Mentor**: Prof. Ilan Tsarfaty
+```bash
+cd SDMT
+bash gdc_download_runtime.sh
+```
 
-## License
-This project is licensed under the MIT License.
+This script leverages the GDC client to securely download image and genetic data to the `data_from_gdc/` directory.
+Note that the paths are hardcoded and needs to be defiend as relative ones as in this Github.
 
---- 
+### Running the Pipeline
 
-Let me know if you'd like to refine any part or add specific sections like setup commands or more detailed instructions.
+#### 1. Smart Data Management Tool (SDMT) Workflow
+The SDMT module automates data retrieval and preprocessing.
+- **Flow**: Initiate data download, preprocess data files, and organize them in a structured format.
+- **Configuration**: Configure data paths in `SDMT/config.yaml`.
+- **Execution**:
+   ```bash
+   bash gdc_download_runtime.sh
+   ```
+
+![SDMT Diagram](SDMT/SDMT_block_diagram.png)
+
+#### 2. Computational Image Processing (CIP) Workflow
+The CIP module processes histopathological images with QuPath, including nucleus detection, feature extraction, and intensity measurement.
+
+- **Step 1: Parameter Optimization** - Run experiments to determine optimal parameters for nucleus detection.
+   ```bash
+   python3.10 QuPath/nucleus_detection_mgr.py --outdir <desired output directory> --input_image_dir <input image directory> --image_type <image format (svs/tiff/scn/png etc)> --nucleus_detection_automation QuPath/nucleus_detection_automation.groovy --qupath_parameters_config QuPath/qupath_parameters.json --qupath_console_path QuPath/QuPath-v0.5.1-Linux/QuPath/bin/QuPath
+   ```
+
+![CIP Diagram](QuPath/qp_block_diagram.png)
+
+
+#### 3. QTL Analysis Workflow
+The QTL module integrates phenotypic data from CIP with genetic data to perform QTL analysis using R/qtl2.
+
+- **Step 1: Data Conversion** - Convert genetic data from HAPPY format to R/qtl2-compatible format using `happy_to_R2.py`.
+   ```bash
+   python QTL/happy_to_R2.py
+   ```
+
+- **Step 2: Run QTL Analysis** - In R, load the converted data and perform QTL analysis.
+   ```R
+   source("QTL/qtl_analysis_script.R")
+   ```
+
+![QTL Diagram](QTL/QTL_block_diagram.png)
+
+
+### Configuration Files
+- **qupath_parameters.json**: Defines QuPath parameters for image processing, such as detection thresholds and nucleus segmentation details.
+- **config.yaml**: Located in `SDMT/`, this file configures data paths and download parameters.
+
+### Contributors
+- **Students**: Dor Fried, Lior Segal
+- **Mentor**: Prof. Ilan Tsarfaty, Faculty of Medical and Health Sciences, Tel Aviv University
